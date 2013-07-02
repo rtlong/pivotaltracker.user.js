@@ -9,7 +9,7 @@ At the moment, all it does is:
 ## To install
 
 To install in Chrome, download the pivotaltracker.user.js file from this repo, then open
-your [Chrome extensions page](chrome://extensions), then drag the downloaded user script
+your Chrome extensions page (`chrome://extensions`), then drag the downloaded user script
 up from the downloads bar (or your file manager) into that extensions page. This is
 clunky, yes, but it's the only way Chrome lets one install userscripts. I'd accept any
 help turning this into a proper extension so this process is smoother.
