@@ -1,9 +1,10 @@
 css = '''
-      /* First, delete all text node siblings of the story names (commas between tags and parentheses around initials) */
+      /* First, effectively hide all text node siblings of the story names (commas between tags and parentheses around initials) */
       .story header .name {
         font-size: 1%;
         color: transparent;
       }
+      /* then repair the colors and sizes, and put those characters back but using :before/:after so they can be hidden */
       .story header .name .story_name {
         color: black;
         font-size: 10000%;
